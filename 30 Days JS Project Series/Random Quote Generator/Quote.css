@@ -1,0 +1,97 @@
+/* Doxa Dev */
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+}
+
+body{
+ background:#483d8b;
+ font-family: "Poppins", sans-serif;
+}
+
+.container{
+ padding:20px;
+ width:370px;
+ background:#fff;
+ position:absolute;
+ top:50%;
+ left:50%;
+ transform:translate(-50%, -50%);
+ border-radius:3px;
+}
+
+.container .title{
+ text-align:center;
+}
+
+.container .title::before{
+ content:"";
+ height:3px;
+ width:140px;
+ background:#483d8b;
+ position:absolute;
+ margin-top:26px;
+}
+
+.container .quote-box{
+ padding:5px;
+ border-bottom:1px solid #808080;
+ margin-top:25px;
+ padding-bottom:15px;
+}
+
+.container .quote-box .fa-quote-left{
+ font-size:24px;
+}
+
+.container .quote-box p{
+ margin-left:27px;
+ margin-top:-22px;
+ text-align:center;
+ margin-right:28px;
+}
+
+.container .quote-box .fa-quote-right{
+ float:right;
+ font-size:24px;
+ margin-top:-13px;
+}
+
+.container .quote-box h6{
+ text-align:right;
+ margin-top:24px;
+ font-weight:300;
+ font-style:italic;
+ font-size:15px;
+}
+
+.container button{
+ all:unset;
+ height:40px;
+ width:130px;
+ border-radius:30px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ float:left;
+ margin-left:20px;
+ margin-top:13px;
+ cursor:pointer;
+}
+
+.container .new-quote-btn{
+ background:#483d8b;
+ color:#fff;
+}
+
+.container .tweet-btn{
+ color:#fff;
+ background:#000;
+}
+
+.container .tweet-btn i{
+ padding-right:7px;
+}
