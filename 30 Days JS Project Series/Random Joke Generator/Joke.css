@@ -1,0 +1,72 @@
+/* Doxa Dev */
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+}
+
+body{
+ background:#9370DB;
+ font-family: "Poppins", sans-serif;
+}
+
+.container{
+ padding:25px;
+ width:350px;
+ background:#2f2f2f;
+ position:absolute;
+ top:50%;
+ left:50%;
+ transform:translate(-50%, -50%);
+ border-radius:7px;
+}
+
+.container .emoji{
+ text-align:center;
+ font-size:70px;
+ margin-top:5px;
+ text-shadow:0px 0px 25px rgba(0, 0, 0, 1);
+}
+
+.container .joke{
+ color:#fff;
+ text-align:center;
+ margin-top:10px;
+ font-size:18px;
+}
+
+.container .btns{
+ height:95px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+
+.container .btns button{
+ all:unset;
+ height:55px;
+ width:55px;
+ background:#9370DB;
+ color:#fff;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ border-radius:100%;
+ float:left;
+ margin-left:20px;
+ cursor:pointer;
+}
+
+.container .btns .twitter{
+ background:#000;
+}
+
+.container .btns .copy span{
+ position:absolute;
+ color:#fff;
+ font-style:italic;
+ font-size:8px;
+ display:none;
+}
