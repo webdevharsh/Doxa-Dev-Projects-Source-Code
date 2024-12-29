@@ -1,0 +1,38 @@
+/* Doxa Dev */
+/* Import Google Font - Orbitron */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+}
+
+body{
+ /* background:#131418; */
+ background:#00D4F9;
+ font-family: "Orbitron", serif;
+}
+
+.container{
+ background:#052443;
+ padding:20px;
+ width:360px;
+ position:absolute;
+ top:50%;
+ left:50%;
+ transform:translate(-50%, -50%);
+ border-radius:7px;
+}
+
+.container .date{
+ text-align:center;
+ color:#fff;
+ font-size:18px;
+}
+
+.container .time{
+ text-align:center;
+ color:#00D4F9;
+ font-size:35px;
+ margin-top:10px;
+}
