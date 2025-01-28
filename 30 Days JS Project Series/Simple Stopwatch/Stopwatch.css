@@ -1,0 +1,68 @@
+/* Doxa Dev */
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+}
+
+body{
+ background:#fff;
+ font-family: "Poppins", serif;
+}
+
+.container{
+ height:265px;
+ width:320px;
+ background:#16151A;
+ position:absolute;
+ top:50%;
+ left:50%;
+ transform:translate(-50%, -50%);
+ border-radius:7px;
+}
+
+.container .timer{
+ height:100px;
+ width:350px;
+ background:#7F5BEF;
+ position:absolute;
+ top:90px;
+ left:50%;
+ transform:translate(-50%, -50%);
+ border-radius:5px;
+ display:flex;
+ align-items:center;
+ color:#fff;
+ font-size:40px;
+ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.container .timer span{
+ margin-left:12px;
+ position:relative;
+ left:15px;
+ transition:all .2s;
+}
+
+.container button{
+ all:unset;
+ height:40px;
+ width:100px;
+ border:2px solid #7F5BEF;
+ color:#fff;
+ position:absolute;
+ top:175px;
+ margin-left:35px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ border-radius:3px;
+ cursor:pointer;
+}
+
+.container .start-stop-btn{
+ right:35px;
+ background:#7F5BEF;
+}
