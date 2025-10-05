@@ -1,0 +1,118 @@
+/* Doxa Dev */
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+}
+
+body{
+ font-family: "Poppins", sans-serif;
+ background:#00515F;
+}
+
+.container{
+ padding:20px;
+ background:#F9FAFE;
+ border-radius:10px;
+ width:360px;
+ position:absolute;
+ top:50%;
+ left:50%;
+ transform:translate(-50%, -50%);
+}
+
+.container .app-title{
+ text-align:center;
+ font-size:18px;
+ white-space:nowrap;
+ color:#000;
+}
+
+.container .principal-amount{
+ margin-top:40px;
+}
+
+.container .principal-amount span{
+ font-size:15px;
+ font-weight:600;
+ color:#000;
+}
+
+.container .principal-amount input{
+ all:unset;
+ height:15px;
+ border-bottom:1px solid #000;
+ margin-top:6px;
+ padding:5px;
+ padding-left:10px;
+}
+
+.container .principal-amount input::-webkit-outer-spin-button,
+.container .principal-amount input::-webkit-inner-spin-button{
+ -webkit-appearance:none;
+ margin:0;
+}
+
+.container .box{
+ height:60px;
+ width:158px;
+ float:left;
+ margin-top:17px;
+}
+
+.container .box span{
+ font-size:14px;
+ font-weight:600;
+}
+
+.container .box input{
+ all:unset;
+ height:15px;
+ width:135px;
+ border-bottom:1px solid #000;
+ padding:5px;
+ padding-left:10px;
+ margin-top:3px;
+}
+
+.container .box input::-webkit-outer-spin-button,
+.container .box input::-webkit-inner-spin-button{
+ -webkit-appearance:none;
+ margin:0;
+}
+
+.container .time-period{
+ position:relative;
+ left:13px;
+}
+
+.container .calculate-btn{
+ all:unset;
+ height:40px;
+ width:180px;
+ background:#00515F;
+ color:#fff;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ border-radius:7px;
+ margin:auto;
+ position:relative;
+ top:13px;
+ cursor:pointer;
+}
+
+.container .result-box{
+ margin-top:41px;
+ background:rgba(0, 81, 95, 0.1);
+ text-align:center;
+ border-radius:7px;
+ padding:15px;
+}
+
+.container .result-box p{
+ margin-top:7px;
+ font-size:14px;
+  }
