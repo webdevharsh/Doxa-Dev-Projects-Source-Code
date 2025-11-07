@@ -1,0 +1,113 @@
+/* Doxa Dev */
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+}
+
+body{
+ background:#7289DA;
+ font-family: "Poppins", sans-serif;
+}
+
+.container{
+ padding:20px;
+ width:350px;
+ border-radius:7px;
+ background:#fff;
+ position:absolute;
+ top:50%;
+ left:50%;
+ transform:translate(-50%, -50%);
+ transition:all .2s;
+}
+
+.container h3{
+ text-align:center;
+ font-size:18px;
+}
+
+.container .captcha-box{
+ height:60px;
+ width:250px;
+ border:1px solid grey;
+ padding:10px 0px 10px 0px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ border-radius:10px;
+ margin:auto;
+ margin-top:25px;
+}
+
+.container .captcha-box img{
+ height:60px;
+ width:250px;
+ border-radius:10px;
+}
+
+.container .captcha-box h3{
+ position:absolute;
+ font-size:25px;
+ text-decoration:line-through;
+ color:#2f2f2f;
+}
+
+.container .userInput{
+ all:unset;
+ height:35px;
+ width:200px;
+ border-radius:6px;
+ padding-left:10px;
+ position:absolute;
+ left:50%;
+ transform:translate(-50%, -50%);
+ margin-top:25px;
+ border:1px solid grey;
+}
+
+.container button{
+ all:unset;
+ height:30px;
+ margin:auto;
+ color:#fff;
+ padding:5px;
+ width:100px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ border-radius:4px;
+ background:#7289DA;
+ cursor:pointer;
+}
+
+.container .check-btn{
+ margin-top:70px;
+}
+
+.container .generate-btn{
+ margin-top:5px;
+ width:150px;
+}
+
+.container .message{
+ text-align:center;
+ margin-top:16px;
+ font-size:12px;
+ display:none;
+}
+
+.container .message.correct{
+ color:green;
+}
+
+.container .message.incorrect{
+ color:red;
+}
+
+::selection{
+ background:#7289DA;
+ color:#fff;
+}
