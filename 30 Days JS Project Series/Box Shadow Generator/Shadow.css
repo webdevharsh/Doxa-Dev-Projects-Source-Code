@@ -1,0 +1,119 @@
+/* Doxa Dev  */
+/* Import Google Font - Poppins  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+}
+
+body{
+ background:#708090;
+ font-family: "Poppins", sans-serif;
+}
+
+.container{
+ height:450px;
+ width:350px;
+ background:#fff;
+ position:absolute;
+ top:50%;
+ left:50%;
+ transform:translate(-50%, -50%);
+ border-radius:7px;
+}
+
+.container input[type="color"]::-webkit-color-swatch-wrapper{
+ padding:0;
+}
+
+.container input[type="color"]::-webkit-color-swatch{
+ border:none;
+ border-radius:100%;
+}
+
+.container input[type="color"]{
+ -webkit-appearance:none;
+ height:35px;
+ width:35px;
+ border-radius:100%;
+ outline:none;
+ border:none;
+ margin-top:15px;
+ margin-left:15px;
+ cursor:pointer;
+}
+
+.container input[type="color"]:nth-child(2){
+ float:right;
+ margin-right:15px;
+}
+
+.container .outputBox{
+ height:130px;
+ width:180px;
+ background:#b2c9e1;
+ position:absolute;
+ left:50%;
+ transform:translate(-50%,-50%);
+ margin-top:60px;
+ border-radius:5px;
+ box-shadow:5px 3px 3px 2px #000000;
+}
+
+.container .input-box{
+ height:180px;
+ width:350px;
+ margin-top:130px;
+}
+
+.container .input-box div{
+ height:90px;
+ width:174px;
+ float:left;
+ text-align:center;
+}
+
+.container .input-box div p{
+ margin-top:28px;
+}
+
+.container .input-box div input{
+ margin-top:10px;
+ cursor:pointer;
+}
+
+.container label{
+ position:absolute;
+ left:50%;
+ transform:translate(-50%, -50%);
+ display:flex;
+ align-items:center;
+ margin-top:24px;
+ cursor:pointer;
+}
+
+.container label input{
+ position:relative;
+ left:-6px;
+ height:20px;
+ width:20px;
+ cursor:pointer;
+}
+
+.container .code-box{
+ position:absolute;
+ bottom:0;
+ width:100%;
+ background:#d3d3d3;
+ height:33px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ color:#000;
+ font-size:15px;
+}
+
+.container .code-box span{
+ white-space:nowrap;
+}
