@@ -1,0 +1,46 @@
+<!-- Doxa Dev -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="Shadow.css">
+    <title>Box Shadow Generator</title>
+</head>
+<body>
+    
+ <div class="container">
+    <input type="color" class="boxColor" value="#b2c9e1" oninput="generateShadow()">
+    <input type="color" class="shadowColor" oninput="generateShadow()">
+    <div class="outputBox"></div>
+    <div class="input-box">
+        <div class="horizontal">
+            <p>H</p>
+            <input type="range" value="5" oninput="generateShadow()">
+        </div>
+        <div class="vertical">
+            <p>V</p>
+            <input type="range" value="3" oninput="generateShadow()">
+        </div>
+        <div class="blur">
+            <p>Blur</p>
+            <input type="range" value="3" oninput="generateShadow()">
+        </div>
+        <div class="spread">
+            <p>Spread</p>
+            <input type="range" value="2" oninput="generateShadow()">
+        </div>
+    </div>
+    <label for="inset-checkbox">
+        <input type="checkbox" id="inset-checkbox" oninput="generateShadow()"> inset
+    </label>
+    <div class="code-box">
+        <span>box-shadow:5px 3px 3px 2px #000000</span>
+    </div>
+ </div>
+
+<!-- Script file  -->
+<script src="Shadow.js"></script>
+</body>
+</html>
